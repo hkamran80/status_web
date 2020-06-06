@@ -1,0 +1,75 @@
+{
+    "android_ip_webcam": {
+        "name": "Android IP Webcam",
+        "default_port": 8080
+    },
+    "emby": {
+        "name": "Emby",
+        "default_port": [
+            8096,
+            8920
+        ]
+    },
+    "glances": {
+        "name": "Glances",
+        "default_port": 61208
+    },
+    "homeassistant": {
+        "name": "Home Assistant",
+        "default_port": 8123
+    },
+    "influxdb": {
+        "name": "InfluxDB",
+        "default_port": 8086
+    },
+    "mqtt": {
+        "name": "MQTT",
+        "default_port": [
+            1883,
+            8883
+        ]
+    },
+    "pi_hole": {
+        "name": "Pi-hole",
+        "default_port": [
+            80,
+            53
+        ]
+    },
+    "plex": {
+        "name": "Plex Media Server",
+        "default_port": 32400
+    },
+    "pyload": {
+        "name": "pyLoad",
+        "default_port": 8000
+    },
+    "qnap": {
+        "name": "QNAP",
+        "default_port": 8080
+    },
+    "radarr": {
+        "name": "Radarr",
+        "default_port": 7878
+    },
+    "roku": {
+        "name": "Roku",
+        "default_port": 8060
+    },
+    "sabnzbd": {
+        "name": "SABnzbd",
+        "default_port": 8080
+    },
+    "sonarr": {
+        "name": "Sonarr",
+        "default_port": 8989
+    },
+    "tautulli": {
+        "name": "Tautulli",
+        "default_port": 8181
+    },
+    "transmission": {
+        "name": "Transmission",
+        "default_port": 9091
+    }
+}
