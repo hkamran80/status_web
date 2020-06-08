@@ -1,75 +1,91 @@
-{
-    "android_ip_webcam": {
+[
+    {
+        "id": "android_ip_webcam",
         "name": "Android IP Webcam",
         "default_port": 8080
     },
-    "emby": {
+    {
+        "id": "emby",
         "name": "Emby",
         "default_port": [
             8096,
             8920
         ]
     },
-    "glances": {
+    {
+        "id": "glances",
         "name": "Glances",
         "default_port": 61208
     },
-    "homeassistant": {
+    {
+        "id": "homeassistant",
         "name": "Home Assistant",
         "default_port": 8123
     },
-    "influxdb": {
+    {
+        "id": "influxdb",
         "name": "InfluxDB",
         "default_port": 8086
     },
-    "mqtt": {
+    {
+        "id": "mqtt",
         "name": "MQTT",
         "default_port": [
             1883,
             8883
         ]
     },
-    "pi_hole": {
+    {
+        "id": "pi_hole",
         "name": "Pi-hole",
         "default_port": [
             80,
             53
         ]
     },
-    "plex": {
+    {
+        "id": "plex",
         "name": "Plex Media Server",
         "default_port": 32400
     },
-    "pyload": {
+    {
+        "id": "pyload",
         "name": "pyLoad",
         "default_port": 8000
     },
-    "qnap": {
+    {
+        "id": "qnap",
         "name": "QNAP",
         "default_port": 8080
     },
-    "radarr": {
+    {
+        "id": "radarr",
         "name": "Radarr",
         "default_port": 7878
     },
-    "roku": {
+    {
+        "id": "roku",
         "name": "Roku",
         "default_port": 8060
     },
-    "sabnzbd": {
+    {
+        "id": "sabnzbd",
         "name": "SABnzbd",
         "default_port": 8080
     },
-    "sonarr": {
+    {
+        "id": "sonarr",
         "name": "Sonarr",
         "default_port": 8989
     },
-    "tautulli": {
+    {
+        "id": "tautulli",
         "name": "Tautulli",
         "default_port": 8181
     },
-    "transmission": {
+    {
+        "id": "transmission",
         "name": "Transmission",
         "default_port": 9091
     }
-}
+]
